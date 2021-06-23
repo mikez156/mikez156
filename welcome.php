@@ -99,7 +99,23 @@ table,td,th{
     background-color:#31A231;
     cursor: pointer;
 }
-
+.ped{
+    margin: 5px;
+    cursor: pointer;
+    border: solid black 1px;
+    min-width: 100px;
+    height: 50px;
+    background-color: lightgreen;
+text-align: center;
+padding: 10px;
+}
+.ped:hover,.pedi:hover{
+    background-color: greenyellow;
+}
+.pedi{
+    margin: 5px;
+    cursor: pointer;
+}
     </style>
 </head>
 <body>
@@ -127,6 +143,8 @@ table,td,th{
                         <button type="button" class="btn btn-success" id="schedbtn">Schedule</button>
                         <button type="submit" class="btn btn-success">Transaction</button>
                         <button type="submit" class="btn btn-success" id="memshow">Members</button>
+                        <button type="submit" class="btn btn-success" id="Staffshow">Staffs</button>
+                        <button type="submit" class="btn btn-success" id="bookshow">Books</button>
                     </div>
                 </div>
             <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#trans" id="transac">Transaction</button>
@@ -458,7 +476,7 @@ table,td,th{
 <br>
 <table>
 <tr>
-<td colspan=2><input type="text"></td>
+<td colspan=2><input type="checkbox" value="Restructure" id="restruct" name="restruct"><label for="restruct">Restructure</label></td>
 </tr>
 <tr>
 <td>Terms(Mos)</td>
@@ -768,16 +786,29 @@ table,td,th{
                         <option value="Dipaculao">Dipaculao</option>
     </select>
 </div>
+<div>Clasification</div>
+<div>
+<select name="classi" id="classi">
+                        <option value="Select">Select</option>
+                        <option value="Easy Collection">Easy Collection</option>
+                        <option value="For Negotiation">For Negotiation</option>
+                        <option value="For Barangay Court">For Barangay Court</option>
+                        <option value="For Litigation">For Litigation</option>
+    </select>
+</div>
 </div>
 
-<div>
-<input type="Submit" value="Compute" id="computeAging">
-<input type="Submit" value="ALL Loans">
-<input type="Submit" value="Current Loans">
-<input type="Submit" value="Past Due Loans">
-<input type="Submit" value="For Negotiation">
-<input type="Submit" value="For Barangay Court">
-<input type="Submit" value="For Litigation">
+
+</div>
+<div class="d-flex flex-row ">
+<div class="ped"  id="computeAging"><p>Compute</p></div>
+<div class="ped"  id="all_loans"> ALL Loans </div>
+<div class="ped"  id="current_loan"> Current Loans </div>
+<div class="ped"  id="past_due"> Past Due Loans </div>
+<div class="ped"  id="sumary"> Summary </div>
+<div class="ped"  id="excelit"> Excel </div>
+<div  id="edit" style="padding:10px"> <p class="pedi" id ="pedil">Edit Classification </p></div>
+
 </div>
 <table id="agingtblrpt">
 <thead>
@@ -789,6 +820,7 @@ table,td,th{
 <td>Release Date</td>
 <td>Due Date</td>
 <td>Loan Amount</td>
+<td>Loan Balance</td>
 <td>Security</td>
 <td>About the Borrower</td>
 <td>What To do</td>
@@ -796,11 +828,24 @@ table,td,th{
 <td>Person Responsible</td>
 <td>Remarks</td>
 <td>Kinds of Loan</td>
+<td>Mos. Due</td>
+<td>Branch</td>
 </tr>
 </thead>
-<body>
+<tbody>
     
-</body>
+</tbody>
+</table>
+
+<table id="sumarytbl">
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
 </table>
 </div>
 <!-- =================End of Aging div====================================-->
@@ -1182,7 +1227,8 @@ function cleartext() {
     $('#cfines').val('');
     $('#cotxt').val('');
     $('#ccoh').val('');
-
+    $('#termstxt').val('');
+    $("#restruct").prop('checked', false); 
 }
 function searchloanbal(){
     $("#ledgertble tbody").empty();

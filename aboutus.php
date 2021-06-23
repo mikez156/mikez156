@@ -17,7 +17,7 @@ include 'nav.php';
 <div class="row">
     <div class="col-lg-4">
     <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/main.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/main.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Head Office</h4>
       <p class="card-text">Piwong, Hingyon, Ifugao</p>
@@ -28,7 +28,7 @@ include 'nav.php';
 
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/main.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/main.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Main Office</h4>
       <p class="card-text">Piwong, Hingyon, Ifugao</p>
@@ -38,7 +38,7 @@ include 'nav.php';
 </div>
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/img_avatar1.png" alt="Lagawe" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="Lagawe" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Lagawe Sat. Office</h4>
       <p class="card-text">Lagawe, Ifugao</p>
@@ -53,7 +53,7 @@ include 'nav.php';
 <div class="row">
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/solano.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/solano.jpg" alt="Card image" style="width:100%;height:00px">
     <div class="card-body">
       <h4 class="card-title">Solano Branch</h4>
       <p class="card-text">Solano, Nueva Viscaya</p>
@@ -64,7 +64,7 @@ include 'nav.php';
 
     <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/img_avatar1.png" alt="bambang" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="bambang" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Bambang Branch</h4>
       <p class="card-text">Bambang, Nueva Viscaya</p>
@@ -74,7 +74,7 @@ include 'nav.php';
 </div>
     <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/diadi.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/diadi.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Diadi Branch</h4>
       <p class="card-text">Diadi,Nueva Viscaya</p>
@@ -87,7 +87,7 @@ include 'nav.php';
 <div class="row">
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/diffun.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/diffun.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Diffun Branch</h4>
       <p class="card-text">Diffun, Quirino</p>
@@ -97,7 +97,7 @@ include 'nav.php';
 </div>
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/img_avatar1.png" alt="Maddela" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="Maddela" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Maddela Branch</h4>
       <p class="card-text">Maddela, Quirino</p>
@@ -107,7 +107,7 @@ include 'nav.php';
 </div>
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/baguio.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/baguio.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Baguio Branch</h4>
       <p class="card-text">Baguio City</p>
@@ -120,7 +120,7 @@ include 'nav.php';
 <div class="row">
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/maria.jpg" alt="Card image" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/maria.jpg" alt="Card image" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Ma. Aurora Branch</h4>
       <p class="card-text">Maria Aurora</p>
@@ -130,7 +130,7 @@ include 'nav.php';
 </div>
 <div class="col-lg-4">
         <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/img_avatar1.png" alt="Dipaculao" style="width:100%;height;800px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="Dipaculao" style="width:100%;height:800px">
     <div class="card-body">
       <h4 class="card-title">Dipaculao Sat. Office</h4>
       <p class="card-text">Dipaculao, Aurora</p>
